@@ -1,0 +1,483 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills | Sunil Dhakad</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+  <link rel="stylesheet" href="{% static 'skills.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="modern-header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <div class="logo">
+          <h1>Sunil Dhakad</h1>
+        </div>
+        <nav class="main-nav">
+          <a href="/" class="nav-link">
+            <i class="fas fa-home"></i> Home
+          </a>
+          <a href="/skills/" class="nav-link active">
+            <i class="fas fa-code"></i> Skills
+          </a>
+          <a href="/projects/" class="nav-link">
+            <i class="fas fa-project-diagram"></i> Projects
+          </a>
+          <a href="/contact/" class="nav-link">
+            <i class="fas fa-envelope"></i> Contact
+          </a>
+    </nav>
+        <div class="mobile-menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="skills-hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>My Skills & Expertise</h1>
+        <p>Technologies and tools I use to build amazing applications</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROGRAMMING LANGUAGES ===== -->
+  <section id="programming-languages" class="skills-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Programming Languages</h2>
+        <p class="section-subtitle">Languages I work with</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-python"></i>
+          </div>
+          <div class="skill-info">
+            <h3>Python</h3>
+            <p>Advanced</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="95"></div>
+            </div>
+            <span class="skill-level">95%</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <div class="skill-info">
+            <h3>JavaScript</h3>
+            <p>Intermediate</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="50"></div>
+            </div>
+            <span class="skill-level">50%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FRAMEWORKS & TECHNOLOGIES ===== -->
+  <section id="frameworks" class="skills-section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Frameworks & Technologies</h2>
+        <p class="section-subtitle">Tools and frameworks I use</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <div class="skill-info">
+            <h3>Django</h3>
+            <p>Advanced</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="90"></div>
+            </div>
+            <span class="skill-level">90%</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-flask"></i>
+          </div>
+          <div class="skill-info">
+            <h3>Flask</h3>
+            <p>Intermediate</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="60"></div>
+            </div>
+            <span class="skill-level">60%</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <div class="skill-info">
+            <h3>FastAPI</h3>
+            <p>Intermediate</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="60"></div>
+            </div>
+            <span class="skill-level">60%</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <div class="skill-info">
+            <h3>HTML5</h3>
+            <p>Advanced</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="90"></div>
+            </div>
+            <span class="skill-level">90%</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <div class="skill-info">
+            <h3>CSS3</h3>
+            <p>Advanced</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="85"></div>
+            </div>
+            <span class="skill-level">85%</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-bootstrap"></i>
+          </div>
+          <div class="skill-info">
+            <h3>Bootstrap</h3>
+            <p>Intermediate</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="75"></div>
+            </div>
+            <span class="skill-level">75%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DATABASES ===== -->
+  <section id="databases" class="skills-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Databases</h2>
+        <p class="section-subtitle">Database technologies I work with</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="skill-info">
+            <h3>MySQL</h3>
+            <p>Intermediate</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="80"></div>
+            </div>
+            <span class="skill-level">80%</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-leaf"></i>
+          </div>
+          <div class="skill-info">
+            <h3>MongoDB</h3>
+            <p>Intermediate</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="70"></div>
+            </div>
+            <span class="skill-level">70%</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-file-code"></i>
+          </div>
+          <div class="skill-info">
+            <h3>SQLite</h3>
+            <p>Advanced</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="85"></div>
+            </div>
+            <span class="skill-level">85%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TOOLS & CLOUD ===== -->
+  <section id="tools" class="skills-section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Tools & Cloud</h2>
+        <p class="section-subtitle">Development and deployment tools</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-git-alt"></i>
+          </div>
+          <div class="skill-info">
+            <h3>Git & GitHub</h3>
+            <p>Advanced</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="85"></div>
+            </div>
+            <span class="skill-level">85%</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-aws"></i>
+          </div>
+          <div class="skill-info">
+            <h3>AWS</h3>
+            <p>Beginner</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="60"></div>
+            </div>
+            <span class="skill-level">60%</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <div class="skill-info">
+            <h3>Render</h3>
+            <p>Intermediate</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="75"></div>
+            </div>
+            <span class="skill-level">75%</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="skill-info">
+            <h3>VS Code</h3>
+            <p>Advanced</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="90"></div>
+            </div>
+            <span class="skill-level">90%</span>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-plug"></i>
+          </div>
+          <div class="skill-info">
+            <h3>Postman</h3>
+            <p>Intermediate</p>
+            <div class="progress-bar">
+              <div class="progress-fill" data-width="80"></div>
+            </div>
+            <span class="skill-level">80%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CORE SKILLS ===== -->
+  <section id="core-skills" class="skills-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Core Skills</h2>
+        <p class="section-subtitle">My expertise areas</p>
+      </div>
+      <div class="core-skills-grid">
+        <div class="core-skill-item">
+          <div class="core-skill-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h3>REST API Development</h3>
+          <p>Building robust and scalable REST APIs using Django, Flask, and FastAPI</p>
+        </div>
+        <div class="core-skill-item">
+          <div class="core-skill-icon">
+            <i class="fas fa-puzzle-piece"></i>
+          </div>
+          <h3>Problem Solving</h3>
+          <p>Analyzing complex problems and finding efficient solutions through code</p>
+        </div>
+        <div class="core-skill-item">
+          <div class="core-skill-icon">
+            <i class="fas fa-bug"></i>
+          </div>
+          <h3>Debugging</h3>
+          <p>Identifying and fixing issues in applications using systematic approaches</p>
+        </div>
+        <div class="core-skill-item">
+          <div class="core-skill-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3>Scalable Systems</h3>
+          <p>Designing and implementing backend systems that can handle growth</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="modern-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-text">
+          <h3>Ready to Work Together?</h3>
+          <p>Let's discuss your next project and bring your ideas to life</p>
+        </div>
+        <div class="footer-cta">
+          <a href="/contact/" class="btn btn-primary">
+            <i class="fas fa-envelope"></i>
+            Get In Touch
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Sunil Dhakad | Built with <span class="heart">❤️</span> using Django</p>
+        <div class="footer-links">
+          <a href="/">Home</a>
+          <a href="/skills/">Skills</a>
+          <a href="/projects/">Projects</a>
+          <a href="/contact/">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Enhanced Scripts ===== -->
+  <script>
+  // Animate progress bars on scroll
+  function animateProgressBars() {
+    const progressBars = document.querySelectorAll('.progress-fill');
+    
+    progressBars.forEach(bar => {
+      const rect = bar.getBoundingClientRect();
+      const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+      
+      if (isVisible && !bar.classList.contains('animated')) {
+        const width = bar.getAttribute('data-width');
+        bar.style.width = width + '%';
+        bar.classList.add('animated');
+      }
+    });
+  }
+
+  // Animate skill cards on scroll
+  function animateSkillCards() {
+    const skillCards = document.querySelectorAll('.skill-card, .core-skill-item');
+    
+    skillCards.forEach((card, index) => {
+      const rect = card.getBoundingClientRect();
+      const isVisible = rect.top < window.innerHeight - 100;
+      
+      if (isVisible && !card.classList.contains('animate-in')) {
+        setTimeout(() => {
+          card.classList.add('animate-in');
+        }, index * 100);
+      }
+    });
+  }
+
+  // Mobile menu toggle
+  const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+  const mainNav = document.querySelector('.main-nav');
+
+  if (mobileMenuToggle) {
+    mobileMenuToggle.addEventListener('click', function() {
+      mainNav.classList.toggle('active');
+      this.classList.toggle('active');
+    });
+  }
+
+  // Smooth scrolling for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+
+  // Initialize animations
+  window.addEventListener('scroll', () => {
+    animateProgressBars();
+    animateSkillCards();
+  });
+
+  // Initial check
+  document.addEventListener('DOMContentLoaded', () => {
+    animateProgressBars();
+    animateSkillCards();
+  });
+
+  // Add CSS animations dynamically
+  const style = document.createElement('style');
+  style.textContent = `
+    .progress-fill {
+      width: 0% !important;
+      transition: width 2s ease-in-out;
+    }
+    
+    .progress-fill.animated {
+      width: var(--target-width) !important;
+    }
+    
+    .skill-card, .core-skill-item {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s ease-out;
+    }
+    
+    .skill-card.animate-in, .core-skill-item.animate-in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    .heart {
+      animation: heartbeat 1.5s ease-in-out infinite;
+    }
+    
+    @keyframes heartbeat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+  `;
+  document.head.appendChild(style);
+  </script>
+
+</body>
+</html>
